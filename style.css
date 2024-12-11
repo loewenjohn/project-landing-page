@@ -59,14 +59,21 @@
 
 p, a {
     text-decoration:none;
-    color: #e5e7eb;
     font-size:18px;
     padding: 0;
     margin:0; 
 
 }
 
-img {
+p {
+    color:#1F2937;
+}
+
+a {
+    color: #e5e7eb;
+}
+
+.picture img {
     width: 400px;
     height:auto;
 }
@@ -80,4 +87,38 @@ button.sign-up {
     color:#f9faf8;
     border-radius: 5px;
     border:none;
+}
+
+
+.info {
+    display:flex;
+    border: 2px solid black;
+    flex-direction: column;
+    align-items:center;
+    padding: 50px;
+}
+
+.boxes img {
+    width: 150px;
+    height:150px;
+    border-radius:5px;
+    border: 2px solid #3882f6;
+}
+.boxes > * {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:150px;
+    gap: 0px, 20px;
+}
+ 
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+
+}
+
+.boxes > .p {
+    color: #1f2937;
 }
