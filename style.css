@@ -2,10 +2,8 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.body {
-    display:flex;
+body {
     margin:0px;
-    padding:0px;
 }
 
 .header {
@@ -31,13 +29,13 @@
     color:#f9faf8;
     font-size: 48px;
     font-weight: 900;
-    margin-bottom:2px;
+    margin-bottom:15px;
 }
 
 .hero-text {
     color:#e5e7eb;
     font-size: 18px;
-    margin-bottom:2px;
+    margin-bottom:10px;
 }
 
 .description {
@@ -76,19 +74,20 @@ p {
 }
 
 .picture img {
-    width: 450px;
-    height:auto;
+    width: 600px;
+    height:300px;
 }
 
 button.sign-up {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 4px;
-    padding-bottom:4px;
+    width: 120px;
+    height:40px;
+    font-size:15px;
+    font-weight:600;
     background:#3882f6;
     color:#f9faf8;
     border-radius: 5px;
     border:none;
+    margin-bottom:15px;
 }
 
 
@@ -133,6 +132,7 @@ button.sign-up {
 }
 
 
+
 .quotes {
     display:flex;
     justify-content:center;
@@ -148,6 +148,7 @@ button.sign-up {
     color:#1f2937;
     margin:0;
 }
+
 .quote > p {
     display:flex;
     flex-wrap:wrap;
@@ -159,9 +160,77 @@ button.sign-up {
     width:750px;
 }
 
-
-
 .credit {
     display:flex;
     justify-content: flex-end;
+}
+
+
+.promo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.promo-cont {
+    display:flex;
+    width: 800px;
+    margin-top:100px;
+    margin-bottom:100px;
+    padding-left:50px;
+    padding-right:50px;
+    border-radius:5px;
+    background-color:#3882f6;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+.para {
+    margin-right:30px;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 600;
+    color:#f9faf8;
+}
+
+.call {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+button.sign-up2 {
+    width: 120px;
+    height: 40px;
+    background-color:#3882f6;
+    border-radius:5px;
+    border: 3px solid #f9faf8;
+    font-size:14px;
+    font-weight:600;
+    color:#f9faf8;
+}
+
+
+.footer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#1F2937;
+
+}
+
+.copyright {
+    margin: 30px;
+}
+
+.copy-text {
+    color:#e5e7eb;
+    font-size: 18px;
 }
